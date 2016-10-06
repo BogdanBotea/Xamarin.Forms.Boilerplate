@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:local="clr-namespace:Boilerplate.Core;assembly=Boilerplate.Core" 
+			 x:Class="Boilerplate.Core.Module1TabbedPage">
+	<local:Module1Page1 Appearing="Module1Page1_Appearing"  />
+	<local:Module1Page2 Appearing="Module1Page2_Appearing" />
+</TabbedPage>

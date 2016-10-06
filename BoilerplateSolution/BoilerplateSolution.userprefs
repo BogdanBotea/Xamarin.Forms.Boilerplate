@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{7E6B4CB1-AF78-43B8-92A7-27621906352A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Platform/iOS/Main.cs">
+    <Files>
+      <File FileName="Platform/iOS/Entitlements.plist" />
+      <File FileName="Platform/iOS/Info.plist" />
+      <File FileName="Platform/iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="Platform/iOS/packages.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BoilerplateSolution" expanded="True">
+            <Node name="Core" expanded="True" />
+            <Node name="Platform" expanded="True">
+              <Node name="Boilerplate.iOS" expanded="True">
+                <Node name="Main.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Platform.Boilerplate.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+</Properties>

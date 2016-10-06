@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		x:Class="Boilerplate.Core.MasterPage"
+		Icon="Menu.png"
+		Title="MasterPage" 
+		Appearing="MasterPage_Appering" 
+		Focused="MasterPage_Focused">
+	<ContentPage.Content>
+		<StackLayout x:Name="slContainer" VerticalOptions="FillAndExpand">
+			<Label Text="Title" HorizontalTextAlignment="Start" TextColor="White" Margin="0, 38, 0, 0"/>
+			<ListView x:Name="lvItems" VerticalOptions="FillAndExpand" BackgroundColor="#f2f2f2" SeparatorVisibility="None">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<Grid>
+							    <Grid.RowDefinitions>
+							        <RowDefinition Height="*" />
+							    </Grid.RowDefinitions>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="2" />
+									<ColumnDefinition Width="3*" />
+									<ColumnDefinition Width="5*" />
+								</Grid.ColumnDefinitions>
+									<BoxView x:Name="bvSelected" HorizontalOptions="Fill" VerticalOptions="Fill" 
+										Grid.Column="0" />
+									<Image x:Name="iIcon" Source="{Binding IconSource}" VerticalOptions="Center" HeightRequest="25" HorizontalOptions="Center"
+										Grid.Column="1" Margin="5, 0, 5, 0"/>
+								    <Label x:Name="lName" Text="{Binding Title}" TextColor="Black" HorizontalTextAlignment="Start" 
+										VerticalTextAlignment="Center" LineBreakMode="TailTruncation" VerticalOptions="Fill" HorizontalOptions="Fill"
+										Grid.Column="2" />			
+							</Grid>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+			<Label x:Name="lSettings" Text="Settings" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White" HeightRequest="48"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
