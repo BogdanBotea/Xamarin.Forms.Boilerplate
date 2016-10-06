@@ -1,1 +1,0 @@
-# Xamarin.Forms.iOS.Boilerplate
